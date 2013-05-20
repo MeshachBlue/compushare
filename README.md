@@ -5,7 +5,7 @@ A plugin for the bitcoin miner.
 
 Pays the miner more bitcoins by giving the miner the option to run a researcher's Monte Carlo iteration.
 
-From the researchers point of view, Monte Carlo simulations run many many thousands of iterations of code. Each iteration is independent of each other iteration and can be run in any order. This iterative process is perfect for distributive computing. Unfortunately due to limited hardware an iteration of 16 000 000 particles often takes days. This limits medical applications and research progress.
+From the researchers point of view, Monte Carlo simulations run many many thousands of iterations of code. Each iteration is independent of each other iteration and can be run in any order. This iterative process is perfect for distributive computing. Unfortunately due to limited hardware an iteration of 16 000 000 particles often takes days. This limits medical applications and research progress. For applications of Monte Carlo simulations see http://en.wikipedia.org/wiki/Monte_Carlo_method#Applications.
 
 This plug in, when completed, would give researchers the option to pay bitcoin miners worldwide in an auction style, with bitcoins, for the ability to run their iterations distributively across the node network. The code to be run would be an encrypted binary blob which would be run inside a sandbox. It's only network access would be to send a final encrypted result back to the payer in return for the bitcoin payment.
 
