@@ -14,9 +14,10 @@ As a result researchers would have access to practically instantaneous Monte Car
 All money would be transferred as bitcoins to the bitcoin mining network.
 
 There would be several beneficial effects to the bitcoin economy as a result. 
->  This would stabalise the bitcoin economy. 
->  It would make it so all computers could once again effectively mine bitcoin (not just ASIC's). 
->  It would do leaps and bounds for legitimising the currency. 
->  Make it exceptionally more liquid. 
->  Allow users to very effectively trade electricity for bitcoins allowing bypassing of exchanges. 
->  The price would no longer be defined by a few exchanges and their traders, instead it would be decided by the value of computation (which is very valuable).
+* This would stabalise the bitcoin economy. 
+* It would make it so all computers could once again effectively mine bitcoin (not just ASIC's). 
+* It would do leaps and bounds for legitimising the currency. 
+* Make it exceptionally more liquid. 
+* Allow users to very effectively trade electricity for bitcoins allowing bypassing of exchanges. 
+* The price would no longer be defined by a few exchanges and their traders, instead it would be decided by the value of computation (which is very valuable).
+
