@@ -1,4 +1,4 @@
-compushare
+CompuShare
 ==============
 
 A plugin for the bitcoin miner.
