@@ -3,6 +3,8 @@ CompuShare -- Proposal
 
 A program to be used by GPU bitcoin miners "workers" that will either hash or run "pay-per-iteration" Monte Carlo simulations depending on which pays higher at the time. 
 
+Would result in a worldwide distributed supercomputer that could be capable of running 30 000 000 iterations in 1 minute for the cost of $1.
+
 
 For Clients
 ==============
