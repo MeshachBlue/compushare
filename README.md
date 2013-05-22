@@ -34,7 +34,7 @@ The network would be run by the trusted management nodes. These nodes will:
 * record the average (time taken to return a result)/(computational cost) for each node being managed
 * receive and hold onto exit particles until worker is paid
 * contain the ledger of all the node labels and management node ratings -- the majority ledger is declared true
-* trusted management node would compete against other trusted management nodes for management fees paid -- there is an upfront management fee to cover the computational cost of running the management node -- and a 1% fee eventually paid to the nodes for running "duplicate tests".
+* trusted management node would compete against other trusted management nodes for management fees paid -- there is an upfront management fee to cover the computational cost of running the management node -- and a 1% fee eventually paid to the workers for running "duplicate tests".
 
 Have CompuShare contain within it the Bitcoin hashing code so that idle GPUs will return to hashing.
 
