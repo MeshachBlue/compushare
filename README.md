@@ -1,23 +1,20 @@
 CompuShare -- Proposal
 ==============
 
-An alternative bitcoin "miner".
-
-Pays the miner more bitcoins by giving the miner the option to run a researcher's Monte Carlo iteration.
+A program to be used by GPU bitcoin miners "workers" that will either hash or run "pay-per-iteration" Monte Carlo simulations depending on which pays higher at the time. 
 
 From the researchers point of view, Monte Carlo simulations run many many thousands of iterations of code. Each iteration is independent of each other iteration and can be run in any order. This iterative process is perfect for distributive computing. Unfortunately due to limited hardware an iteration of 16 000 000 particles often takes days. This limits medical applications and research progress.
 
 For applications of Monte Carlo simulations see http://en.wikipedia.org/wiki/Monte_Carlo_method#Applications.
 
-CompuShare, when completed, would give researchers the option to pay bitcoin miners worldwide in an auction style, with bitcoins, for the ability to run their iterations distributively across the node network. As a result researchers would have access to practically instantaneous Monte Carlo results. Particular radiation treatments could be implemented days earlier, the progress of physics research worldwide would increase, underfunded universities could have access to a distributive super computer for a very reasonable cost.
+One example of this already implemented using Amazon's Spot Instances is given here:
+http://christopherpoole.github.io/static/pdfs/Poole%20et%20al.%20-%20Radiotherapy%20Monte%20Carlo%20simulation%20using%20cloud%20computing%20technology.pdf
+In this case though Amazon prices are rounded up to the hour, making a very large number of cores, for a very short amount of time more expensive.
 
-All money would be transferred as bitcoins to the bitcoin mining network. There would be several beneficial effects to the bitcoin economy as a result:
-* This would stabilise the bitcoin economy. 
-* It would make it so all computers could once again effectively mine bitcoin (not just ASIC's). 
-* It would do leaps and bounds for legitimising the currency. 
-* Make it exceptionally more liquid. 
-* Allow users to very effectively trade electricity for bitcoins effectively bypassing exchanges. 
-* The price would no longer be defined by a few exchanges and their traders, instead it would be decided by the value of computation (which is very valuable).
+CompuShare, when completed, would give researchers the option to pay bitcoin miners worldwide in an auction "pay-per-iteration" style, with bitcoins, for the ability to run their iterations distributively across the node network. 
+Should enough GPU miners run this code researches would have access to inexpensive, exceptionally quick Monte Carlo results.
+
+All money would be transferred as bitcoins to the bitcoin mining network. This injection of value into the bitcoin network would be exceptionally beneficial for the network.
 
 
 Current idea to get this to work
