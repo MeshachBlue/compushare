@@ -30,7 +30,7 @@ The network would be run by the trusted management nodes. These nodes will:
 * receive, sort and match computation requests
 * receive submitted geometry files
 * iterate each new geometry file in order to obtain its computational cost
-* distribute random number seeds -- have 1% of these be duplicates that are being run on a trusted node -- each untrusted node must have at least one unknown duplicate seed -- have 
+* distribute random number seeds -- have 1% of these be duplicates that are being run on a trusted node -- each set of data paid for must have at least one duplicate seed -- all nodes (including trusted nodes) must have 1% their computations tested in this way by a trusted node.
 * record the average (time taken to return a result)/(computational cost) for each node being managed
 * receive and hold onto exit particles until worker is paid
 * contain the ledger of all the node labels and management node ratings -- the majority ledger is declared true
