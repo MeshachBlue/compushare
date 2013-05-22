@@ -26,7 +26,7 @@ Assume 1000 computers online submitting computation requests to each of the mana
 
 Assume computer runs at 400W, assume price of electricity is 15c / kWh means 1 minute of computation would cost each computer 0.1c. This means the researcher would only need to pay a little over $1 per minute to access all 1000 nodes. 
 
-Assuming network overhead means there is a 4 minute delay in data transfer this means for $1 this researcher has made a computation that would have taken days on the local supercomputer, instead take 5 minutes total.
+Assuming network overhead means there is a 4 minute delay in data transfer this means for $1 this researcher has made a computation take 5 minutes that would have taken days on six cpu cores of the local super computer. 
 
 If an extra cancer patient is able to be treated because of this time saved, the value of that $1 is immense.
 
