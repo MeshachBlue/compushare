@@ -3,18 +3,18 @@ CompuShare -- Proposal
 
 A program to be used by GPU bitcoin miners "workers" that will either hash or run "pay-per-iteration" Monte Carlo simulations depending on which pays higher at the time. 
 
-From the researchers point of view, Monte Carlo simulations run many many thousands of iterations of code. Each iteration is independent of each other iteration and can be run in any order. This iterative process is perfect for distributive computing. Unfortunately due to limited hardware an iteration of 16 000 000 particles often takes days. This limits medical applications and research progress.
 
-For applications of Monte Carlo simulations see http://en.wikipedia.org/wiki/Monte_Carlo_method#Applications.
+Benefit to Clients
+==============
+There are many [applications of Monte Carlo simulations](http://en.wikipedia.org/wiki/Monte_Carlo_method#Applications). Often there are time sensitive applications. Due to the [embarrisingly parallel](http://en.wikipedia.org/wiki/Embarrassingly_parallel) nature of Monte Carlo iterations the time taken for the code to run is directly proportional to the number of cores available. If enough GPU miners run this code life saving operations could be tested computationally in minutes instead of days.
 
-One example of this already implemented using Amazon's Spot Instances is given here:
-http://christopherpoole.github.io/static/pdfs/Poole%20et%20al.%20-%20Radiotherapy%20Monte%20Carlo%20simulation%20using%20cloud%20computing%20technology.pdf
-In this case though Amazon prices are rounded up to the hour, making a very large number of cores, for a very short amount of time more expensive.
+This is already available to clients via Amazon's Spot Instances. An example of an implementation is described [here](http://christopherpoole.github.io/static/pdfs/Poole%20et%20al.%20-%20Radiotherapy%20Monte%20Carlo%20simulation%20using%20cloud%20computing%20technology.pdf). The downside of using Amazon's service is that the price per instance is rounded up to the hour. A "pay-per-iteration" model would significantly benefit the client over current availability.
 
-CompuShare, when completed, would give researchers the option to pay bitcoin miners worldwide in an auction "pay-per-iteration" style, with bitcoins, for the ability to run their iterations distributively across the node network. 
-Should enough GPU miners run this code researches would have access to inexpensive, exceptionally quick Monte Carlo results.
 
-All money would be transferred as bitcoins to the bitcoin mining network. This injection of value into the bitcoin network would be exceptionally beneficial for the network.
+Benefit to Workers
+==============
+GPU miners would be given the choice to hash or to run more profitable computations. Furthermore as a side effect this could result in a slight redection of the bitcoin difficulty.
+
 
 
 Current idea to get this to work
