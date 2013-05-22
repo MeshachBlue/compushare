@@ -24,7 +24,7 @@ Some numbers for the interested
 ==============
 Assume 1000 computers online submitting computation requests to each of the management nodes. Assume each computer has GPU with 500 processing units. Assume each processing unit takes 1 second to process an iteration. This means this cluster would be capable of 30 000 000 iterations every minute.
 
-Assume computer runs at 400W, assume price of electricity is 15c / kWh means 1 minute of computation would cost each computer 0.1c. This means the researcher would need to pay $1 plus a minute amount of fees. 
+Assume computer runs at 400W, assume price of electricity is 15c / kWh means 1 minute of computation would cost each computer 0.1c. This means the researcher would need to pay a little over $1 per minute to access all 1000 nodes. 
 
 Assuming network overhead means there is a 4 minute delay in data transfer this means for $1 this researcher has made a computation that would have taken days on the local supercomputer, instead take 5 minutes total.
 
