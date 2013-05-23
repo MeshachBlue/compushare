@@ -40,12 +40,14 @@ What if I don't want to use Bitcoin?
 ============
 The underlying code will be based on using Bitcoin for the exchange of funds. Once a proof of concept is completed we will approach exchanges to have them implement automatic transfers between Bitcoin and your local currency as necessary.
 
-Making it happen -- Brainstorming results
-==============
-Begin with [Monte Carlo eXtreme](http://mcx.sourceforge.net/cgi-bin/index.cgi) for the running of Monte Carlo simulations on graphics cards.
-
+Difficulties
+============
 From a researchers point of view it would be highly beneficial if this system ran with [GEANT4](http://en.wikipedia.org/wiki/Geant4). But unfortunately there is not any efficient GEANT4 code adapted for GPUs as of yet.
 
+
+
+Making it happen -- Brainstorming results
+==============
 CompuShare would contain within it all the executable code in an open source fashion. Only geometry files and initial particle trajectories would be downloaded onto workers computers.
 
 This network would contain three categories of nodes, "general", "reliable" and "management". A general node can become a reliable node by completing 100 000 000 consecutive iterations without error. If a reliable node makes an error it is demoted once again to a general node. Should the network begin to bottleneck the reliable nodes that have had the most consecutive iterations are given the opportunity to become management nodes. Management nodes become demoted to reliable nodes if they are completing three standard deviations less transactions than the mean of the management nodes for a sustained amount of time. Management nodes get a "star" rating from both the workers and the clients which is declared to all management nodes and is made public. It is also made public if a management nodes ledger is not up to date for a sustained amount of time.
