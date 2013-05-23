@@ -48,15 +48,16 @@ CompuShare would contain within it all the executable code in an open source fas
 
 This network would contain three categories of nodes, "general", "reliable" and "management". A general node can become a reliable node by completing 100 000 000 consecutive iterations without error. If a reliable node makes an error it is demoted once again to a general node. Should the network begin to bottleneck the reliable nodes that have had the most consecutive iterations are given the opportunity to become management nodes. Management nodes become demoted to reliable nodes if they are completing three standard deviations less transactions than the mean of the management nodes for a sustained amount of time. Management nodes get a "star" rating from both the workers and the clients which is declared to all management nodes and is made public. It is also made public if a management nodes ledger is not up to date for a sustained amount of time.
 
-The network would be run by the trusted management nodes. These nodes will:
+The network would be run by the management nodes. These nodes will:
 * receive, sort and match computation requests
 * receive submitted geometry files
 * iterate each new geometry file in order to obtain its computational cost (save this iteration and use it to test nodes)
-* distribute random number seeds -- have 1% of these be duplicates that are being run on a trusted node -- each set of data paid for must have at least one duplicate seed -- all nodes (including trusted nodes) must have 1% their computations tested in this way by a trusted node.
+* distribute random number seeds -- have 1% of these be duplicates that are being run on a reliable node -- each set of data paid for must have at least one duplicate seed -- all nodes (including reliable nodes) must have 1% their computations tested in this way by a reliable node.
 * record the average (time taken to return a result)/(computational cost) for each node being managed
 * receive and hold onto exit particles until worker is paid
 * contain the ledger of all the node labels and management node ratings -- the majority ledger is declared true
-* trusted management node would compete against other trusted management nodes for management fees paid -- there is an upfront management fee to cover the computational cost of running the management node -- and a 1% fee eventually paid to the workers for running "duplicate tests".
+* management nodes would compete against other management nodes for management fees paid -- there is an upfront management fee to cover the computational cost of running the management node -- and a 1% fee eventually paid to the workers for running "duplicate tests"
+* should a management node no longer fulfil its role the workers and clients will give it a bad rating -- this will result in less clients and workers using this management node -- which will result in it eventually being demoted and replaced.
 
 Have CompuShare contain within it the Bitcoin hashing code so that idle GPUs will return to hashing.
 
