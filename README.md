@@ -36,13 +36,17 @@ At the moment it really needs to use bitcoin as there is a Catch 22 limiting its
 If this program has within it Bitcoin hashing, then GPU miners can mine bitcoin until the paying clients catch on to the service. Once paying clients begin to use it, it will snow ball. As more clients use the network the payout to the workers will increase. As payout to workers increases, the number of workers will increase.
 This needs Bitcoin to start. And because it will be firmly established using Bitcoin it will continue using bitcoin.
 
+What if I don't want to use Bitcoin?
+============
+The underlying code will be based on using Bitcoin for the exchange of funds. Once a proof of concept is completed we will approach exchanges to have them implement automatic transfers between Bitcoin and your local currency as necessary.
+
 Making it happen -- Brainstorming results
 ==============
 Begin with [Monte Carlo eXtreme](http://mcx.sourceforge.net/cgi-bin/index.cgi) for the running of Monte Carlo simulations on graphics cards.
 
 CompuShare would contain within it all the executable code in an open source fashion. Only geometry files and initial particle trajectories would be downloaded onto workers computers.
 
-This network would contain three categories of nodes, "untrusted", "trusted" and "trusted management"/"management". An untrusted node can become trusted by completing 100 000 000 consecutive iterations without error. If a trusted node makes an error it is demoted to an untrusted node. Trusted nodes are randomly given the opportunity to become managment nodes if the network is bottlenecking (work out how to define this). Management nodes become demoted to trusted nodes if they are completing three standard deviations less transactions than the mean of the management nodes for a sustained amount of time. Management nodes get a "star" rating from both the workers and the clients which is declared to all management nodes and is made public. It is also made public if a management nodes ledger is not up to date for a sustained amount of time.
+This network would contain three categories of nodes, "general", "reliable" and "management". A general node can become a reliable node by completing 100 000 000 consecutive iterations without error. If a reliable node makes an error it is demoted once again to a general node. Should the network begin to bottleneck the reliable nodes that have had the most consecutive iterations are given the opportunity to become management nodes. Management nodes become demoted to reliable nodes if they are completing three standard deviations less transactions than the mean of the management nodes for a sustained amount of time. Management nodes get a "star" rating from both the workers and the clients which is declared to all management nodes and is made public. It is also made public if a management nodes ledger is not up to date for a sustained amount of time.
 
 The network would be run by the trusted management nodes. These nodes will:
 * receive, sort and match computation requests
@@ -57,5 +61,3 @@ The network would be run by the trusted management nodes. These nodes will:
 Have CompuShare contain within it the Bitcoin hashing code so that idle GPUs will return to hashing.
 
 Clients would submit their geometry and initial particle trajectories to a management node of their choosing paying a small upfront management fee declared by the management node, at this point the client could choose "cheapest" or "fastest". The management node would then calculate the computational cost of this geometry and declare its "price-per-computational cost" to all the listening nodes. Listening nodes would make their request to run the code and declare how many cores are available in their GPU, they would also have the option to be paid less should they wish. The management node will then assign a given number of iterations to each node. These would be weighted towards being an integer multiple of the number of cores at each node. The method of assigning would either be cheapest then fastest or fastest then cheapest depending on the clients choice. Once the exit trajectories are computed they are encrypted and returned to the management node. At this point the management node declares to the client the payment address and amount due to the worker. The client pays the worker. The worker declares to the management node that they have been paid. The management node sends the decrypted then re-encrypted results to the client.
-
-In order to make payment by clients easier, bitcoin exchanges could develop their own plugins on the front end allowing for payments in fiat.
