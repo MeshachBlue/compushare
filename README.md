@@ -8,7 +8,7 @@ Would result in a worldwide distributed supercomputer that could be capable of r
 
 For Clients
 ==============
-There are many [applications of Monte Carlo simulations](http://en.wikipedia.org/wiki/Monte_Carlo_method#Applications). Often there are time sensitive applications. Due to the [embarrisingly parallel](http://en.wikipedia.org/wiki/Embarrassingly_parallel) nature of Monte Carlo iterations the time taken for the code to run is directly proportional to the number of cores available. If enough GPU miners run this code life saving operations could be tested computationally in minutes instead of days.
+There are many [applications of Monte Carlo simulations](http://en.wikipedia.org/wiki/Monte_Carlo_method#Applications). Often there are time sensitive applications. Due to the [embarrassingly parallel](http://en.wikipedia.org/wiki/Embarrassingly_parallel) nature of Monte Carlo iterations the time taken for the code to run is directly proportional to the number of cores available. If enough GPU miners run this code life saving operations could be tested computationally in minutes instead of days.
 
 This is already available to clients via Amazon's Spot Instances. An example of an implementation is described [here](http://christopherpoole.github.io/static/pdfs/Poole%20et%20al.%20-%20Radiotherapy%20Monte%20Carlo%20simulation%20using%20cloud%20computing%20technology.pdf). The downside of using Amazon's service is that the price per instance is rounded up to the hour. A "pay-per-iteration" model would significantly benefit the client over current availability.
 
@@ -32,9 +32,9 @@ If an extra cancer patient is able to be treated because of this time saved, the
 
 Why Bitcoin?
 =============
-At the moment it really needs to use bitcoin as there is a Catch 22 limiting its take off. Researchers won't pay for this unless it is significantly better than Amazon. It won't be significantly better than Amazon until there are a large number of nodes on the network. Nodes will only come to the network if it is profitable.
-If this program has within it Bitcoin hashing, then GPU miners can mine bitcoin until the paying clients catch on to the service. Once paying clients begin to use it, it will snow ball. As more clients use the network the payout to the workers will increase. As payout to workers increases, the number of workers will increase.
-This needs Bitcoin to start. And because it will be firmly established using Bitcoin it will continue using bitcoin.
+At the moment it really needs to use Bitcoin as there is a Catch 22 limiting its take off. Researchers won't pay for this unless it is significantly better than Amazon. It won't be significantly better than Amazon until there are a large number of nodes on the network. Nodes will only come to the network if it is profitable.
+If this program has within it Bitcoin hashing, then GPU miners can mine Bitcoin until the paying clients catch on to the service. Once paying clients begin to use it, it will snow ball. As more clients use the network the payout to the workers will increase. As payout to workers increases, the number of workers will increase.
+This needs Bitcoin to start. And because it will be firmly established using Bitcoin it will continue using Bitcoin.
 
 What if I don't want to use Bitcoin?
 ============
