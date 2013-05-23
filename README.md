@@ -30,6 +30,11 @@ Assuming network overhead means there is a 4 minute delay in data transfer this 
 
 If an extra cancer patient is able to be treated because of this time saved, the value of that $1 is immense.
 
+Why Bitcoin?
+=============
+At the moment it really needs to use bitcoin as there is a Catch 22 limiting its take off. Researchers won't pay for this unless it is significantly better than Amazon. It won't be significantly better than Amazon until there are a large number of nodes on the network. Nodes will only come to the network if it is profitable.
+If this program has within it Bitcoin hashing, then GPU miners can mine bitcoin until the paying clients catch on to the service. Once paying clients begin to use it, it will snow ball. As more clients use the network the payout to the workers will increase. As payout to workers increases, the number of workers will increase.
+This needs Bitcoin to start. And because it will be firmly established using Bitcoin it will continue using bitcoin.
 
 Making it happen -- Brainstorming results
 ==============
