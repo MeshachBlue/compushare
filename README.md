@@ -44,7 +44,7 @@ Making it happen -- Brainstorming results
 ==============
 Begin with [Monte Carlo eXtreme](http://mcx.sourceforge.net/cgi-bin/index.cgi) for the running of Monte Carlo simulations on graphics cards.
 
-The initial focus will be on aligning this system with [GEANT4](http://en.wikipedia.org/wiki/Geant4)
+From a researchers point of view it would be highly beneficial if this system ran with [GEANT4](http://en.wikipedia.org/wiki/Geant4). This will be where I will be focusing most of my time, as this is the most relevant to my supervisor.
 
 CompuShare would contain within it all the executable code in an open source fashion. Only geometry files and initial particle trajectories would be downloaded onto workers computers.
 
