@@ -45,7 +45,6 @@ Difficulties
 From a researchers point of view it would be highly beneficial if this system ran with [GEANT4](http://en.wikipedia.org/wiki/Geant4). But unfortunately there is not any efficient GEANT4 code adapted for GPUs as of yet.
 
 
-
 Making it happen -- Brainstorming results
 ==============
 CompuShare would contain within it all the executable code in an open source fashion. Only geometry files and initial particle trajectories would be downloaded onto workers computers.
