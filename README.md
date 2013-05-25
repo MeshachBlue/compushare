@@ -1,9 +1,9 @@
 CompuShare
 ==========
 
-A program to be used by "workers" that will either hash or run "pay-per-iteration" Monte Carlo simulations depending on which pays higher at the time. 
+Should all of the following 4 steps be completed successfully this would result in a worldwide "distributed supercomputer" which runs GPU optimised code. Implementers of the WebCl code would end up competing for the general public's computation time in an auction style.
 
-Would result in a worldwide "distributed supercomputer" which runs GPU optimised code.
+A worker client would be made available based on Bitcoin transactions that would accept these computation requests or run a "Bitcoin miner" if nothing more profitable was available.
 
 
 Stage 1
