@@ -8,7 +8,7 @@ Would result in a worldwide "distributed supercomputer" which runs GPU optimised
 
 Stage 1
 ==========
-Build a "simple" Monte Carlo iteration for the use on a phantom in a clinical setting using WebCl through [Nokia's plugin](http://webcl.nokiaresearch.com/extensions/firefox/multiplatform/latest/webcl-1.0.xpi) in [Firefox 21](http://www.firefox.com/).
+Build a "simple" Monte Carlo iteration for the use on a [phantom](http://en.wikipedia.org/wiki/Imaging_phantom) in a clinical setting using WebCl through [Nokia's plugin](http://webcl.nokiaresearch.com/extensions/firefox/multiplatform/latest/webcl-1.0.xpi) in [Firefox 21](http://www.firefox.com/).
 
 Stage 2
 ==========
