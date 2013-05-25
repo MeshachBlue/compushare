@@ -22,4 +22,4 @@ Implement a method of payment, preferably through Bitcoin. Other researchers cou
 
 Stage 4
 ==========
-Make a "worker" program in which the user can add a list of trusted websites that run WebCl iterations and contain payment in Bitcoin. The code would default to the WebCl Bitcoin miner written by [Adrien Plagnol](https://bitbucket.org/dalsh/jsoclbm) no more profitable computations existed.
+Make a "worker" program in which the user can add a list of trusted websites that run WebCl iterations and contain payment in Bitcoin. The code would default to the WebCl Bitcoin miner written by [Adrien Plagnol](https://bitbucket.org/dalsh/jsoclbm) if there were not more profitable computations.
