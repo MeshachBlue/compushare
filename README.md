@@ -1,6 +1,10 @@
 CompuShare
 ==========
 
+A program to be used by GPU bitcoin miners "workers" that will either hash or run "pay-per-iteration" Monte Carlo simulations depending on which pays higher at the time. 
+
+Would result in a worldwide "distributed supercomputer" with focus on GPU optimised code.
+
 
 Stage 1
 ==========
