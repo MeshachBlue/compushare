@@ -3,7 +3,7 @@ CompuShare
 
 Should all of the following 4 steps be completed successfully this would result in a worldwide [distributed computer](http://en.wikipedia.org/wiki/Distributed_computing) which runs GPU optimised code. Researchers could implement this code on their website, anyone who went to this section of their website would be able to run their code and return results. Eventually the researchers would end up competing for the general public's computation time in an auction style.
 
-A worker client would be made available based on [Bitcoin](https://www.weusecoins.com/en/) transactions that would accept these computation requests in return for being paid Bitcoin. This worker client would default to running a "Bitcoin miner" if nothing more profitable was available.
+A worker client would be made available based on [Bitcoin](https://www.weusecoins.com/en/) transactions that would accept these computation requests in return for being paid in Bitcoin. This worker client would default to running a "Bitcoin miner" if nothing more profitable was available.
 
 
 Stage 1
