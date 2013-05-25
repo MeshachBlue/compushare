@@ -14,7 +14,7 @@ Stage 2
 ==========
 Implement this on a website so that anybody can go to the website, run the JavaScript code and it would automatically add iterations to the result.
 
-At this point the code would be useful to researchers. They could ask friends, family and co-workers to go to the website and help run their code.
+At this point the code would be useful to researchers. They could ask friends, family and co-workers to go to the website and help significantly speed up their code.
 
 Stage 3
 ==========
