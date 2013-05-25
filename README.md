@@ -18,7 +18,7 @@ At this point the code would be useful to researchers. They could ask friends, f
 
 Stage 3
 ==========
-Implement a method of payment, preferably through Bitcoin. Other researchers could take this idea and implement other payment/credit systems should they wish.
+Implement a method of payment, preferably through Bitcoin. Other researchers could take this idea and implement other payment/credit systems should they wish. Or simply rely on donated computer time.
 
 Stage 4
 ==========
