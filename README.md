@@ -1,6 +1,6 @@
 Project Name Change
 ==========
-Due to the name CompuShare already in use, this project is now known as The Distributed GPU Project and is available at:
+Due to the name CompuShare already in use, a more relevant and informative name is being used for this project. It is now known as The Distributed GPU Project and is available at:
 https://github.com/MeshachBlue/DistributedGPU
 
 Overview
