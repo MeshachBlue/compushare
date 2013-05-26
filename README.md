@@ -1,6 +1,10 @@
-CompuShare
+Project Name Change
 ==========
+Due to the name CompuShare already in use, this project is now known as The Distributed GPU Project and is available at:
+https://github.com/MeshachBlue/DistributedGPU
 
+Overview
+==========
 Should all of the following 4 steps be completed successfully this would result in a worldwide [distributed computer](http://en.wikipedia.org/wiki/Distributed_computing) which runs GPU optimised code. Researchers could implement this code on their website, anyone who went to this section of their website would be able to run their code and return results. Eventually the researchers would end up competing for the general public's computation time in an auction style.
 
 A worker client would be made available based on [Bitcoin](https://www.weusecoins.com/en/) transactions that would accept these computation requests in return for being paid in Bitcoin. This worker client would default to running a "Bitcoin miner" if nothing more profitable was available.
@@ -25,5 +29,3 @@ Implement a method of payment, preferably through Bitcoin. Other researchers cou
 Stage 4
 ==========
 Make a "worker" program in which the user can add a list of trusted websites that run WebCl iterations and contain payment in Bitcoin. The code would default to the WebCl Bitcoin miner written by [Adrien Plagnol](https://bitbucket.org/dalsh/jsoclbm) if there were not more profitable computations.
-
-This worker client is what will be called CompuShare.
